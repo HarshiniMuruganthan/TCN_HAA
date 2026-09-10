@@ -1,0 +1,7 @@
+city,predicted_aqi,aqi_category,health_risk,health_concern
+Bengaluru,61.99484634399414,Moderate,Moderate,"Possible respiratory irritation, especially for sensitive individuals."
+Chennai,81.41038513183594,Moderate,Moderate,"Possible respiratory irritation, especially for sensitive individuals."
+Coimbatore,47.82919692993164,Good,Low,Air quality is generally satisfactory.
+Delhi,90.46898651123047,Moderate,Moderate,"Possible respiratory irritation, especially for sensitive individuals."
+Hyderabad,60.747108459472656,Moderate,Moderate,"Possible respiratory irritation, especially for sensitive individuals."
+Mumbai,56.91973876953125,Moderate,Moderate,"Possible respiratory irritation, especially for sensitive individuals."

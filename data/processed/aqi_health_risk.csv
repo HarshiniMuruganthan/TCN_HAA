@@ -1,0 +1,181 @@
+date,city,AQI-IN,pm25,pm10,aqi,AQI_Category,Health_Risk,Health_Concern
+2026-08-01 00:00:00+00:00,Bengaluru,35.2,15.4,32.2,56.1,Moderate,Moderate,Possible respiratory irritation
+2026-08-02 00:00:00+00:00,Bengaluru,32.5,14.4,30.3,54.2,Moderate,Moderate,Possible respiratory irritation
+2026-08-03 00:00:00+00:00,Bengaluru,41.3,17.8,38.2,62.0,Moderate,Moderate,Possible respiratory irritation
+2026-08-04 00:00:00+00:00,Bengaluru,42.5,16.4,39.8,59.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-05 00:00:00+00:00,Bengaluru,42.4,20.3,38.6,67.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-06 00:00:00+00:00,Bengaluru,51.1,22.7,47.4,72.8,Moderate,Moderate,Possible respiratory irritation
+2026-08-07 00:00:00+00:00,Bengaluru,47.6,19.3,44.7,65.4,Moderate,Moderate,Possible respiratory irritation
+2026-08-08 00:00:00+00:00,Bengaluru,44.3,18.7,42.2,64.1,Moderate,Moderate,Possible respiratory irritation
+2026-08-09 00:00:00+00:00,Bengaluru,49.4,17.7,47.1,62.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-10 00:00:00+00:00,Bengaluru,49.3,18.7,46.2,64.2,Moderate,Moderate,Possible respiratory irritation
+2026-08-11 00:00:00+00:00,Bengaluru,51.6,17.0,48.8,62.0,Moderate,Moderate,Possible respiratory irritation
+2026-08-12 00:00:00+00:00,Bengaluru,59.7,20.3,56.4,68.0,Moderate,Moderate,Possible respiratory irritation
+2026-08-13 00:00:00+00:00,Bengaluru,57.3,18.8,54.0,65.2,Moderate,Moderate,Possible respiratory irritation
+2026-08-14 00:00:00+00:00,Bengaluru,60.0,19.0,57.2,65.5,Moderate,Moderate,Possible respiratory irritation
+2026-08-15 00:00:00+00:00,Bengaluru,55.8,16.3,53.7,60.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-16 00:00:00+00:00,Bengaluru,59.1,16.1,57.2,60.9,Moderate,Moderate,Possible respiratory irritation
+2026-08-17 00:00:00+00:00,Bengaluru,58.9,17.2,57.5,62.7,Moderate,Moderate,Possible respiratory irritation
+2026-08-18 00:00:00+00:00,Bengaluru,59.0,16.2,57.1,61.7,Moderate,Moderate,Possible respiratory irritation
+2026-08-19 00:00:00+00:00,Bengaluru,64.3,17.0,62.5,63.9,Moderate,Moderate,Possible respiratory irritation
+2026-08-20 00:00:00+00:00,Bengaluru,58.5,19.5,55.8,66.7,Moderate,Moderate,Possible respiratory irritation
+2026-08-21 00:00:00+00:00,Bengaluru,49.1,20.0,46.8,67.0,Moderate,Moderate,Possible respiratory irritation
+2026-08-22 00:00:00+00:00,Bengaluru,52.3,19.7,50.1,67.1,Moderate,Moderate,Possible respiratory irritation
+2026-08-23 00:00:00+00:00,Bengaluru,52.5,19.7,49.9,66.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-24 00:00:00+00:00,Bengaluru,44.2,18.6,40.8,64.0,Moderate,Moderate,Possible respiratory irritation
+2026-08-25 00:00:00+00:00,Bengaluru,35.2,17.7,29.1,61.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-26 00:00:00+00:00,Bengaluru,43.5,22.5,35.2,71.8,Moderate,Moderate,Possible respiratory irritation
+2026-08-27 00:00:00+00:00,Bengaluru,43.5,18.7,39.4,63.9,Moderate,Moderate,Possible respiratory irritation
+2026-08-28 00:00:00+00:00,Bengaluru,45.2,16.7,43.7,59.8,Moderate,Moderate,Possible respiratory irritation
+2026-08-29 00:00:00+00:00,Bengaluru,61.7,18.1,60.4,64.1,Moderate,Moderate,Possible respiratory irritation
+2026-08-30 00:00:00+00:00,Bengaluru,64.0,17.4,62.5,63.3,Moderate,Moderate,Possible respiratory irritation
+2026-07-28 00:00:00+00:00,Chennai,54.7,20.1,51.9,67.3,Moderate,Moderate,Possible respiratory irritation
+2026-07-29 00:00:00+00:00,Chennai,60.5,21.4,57.6,70.1,Moderate,Moderate,Possible respiratory irritation
+2026-07-30 00:00:00+00:00,Chennai,63.3,20.8,60.8,69.7,Moderate,Moderate,Possible respiratory irritation
+2026-07-31 00:00:00+00:00,Chennai,75.7,20.3,74.7,71.8,Moderate,Moderate,Possible respiratory irritation
+2026-08-01 00:00:00+00:00,Chennai,63.5,20.2,61.3,69.4,Moderate,Moderate,Possible respiratory irritation
+2026-08-02 00:00:00+00:00,Chennai,55.2,19.7,52.5,67.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-03 00:00:00+00:00,Chennai,63.2,24.5,59.2,77.0,Moderate,Moderate,Possible respiratory irritation
+2026-08-04 00:00:00+00:00,Chennai,56.2,22.4,53.7,72.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-05 00:00:00+00:00,Chennai,54.4,22.4,50.8,72.8,Moderate,Moderate,Possible respiratory irritation
+2026-08-06 00:00:00+00:00,Chennai,60.1,26.1,56.8,80.1,Moderate,Moderate,Possible respiratory irritation
+2026-08-07 00:00:00+00:00,Chennai,82.3,22.8,83.2,78.5,Moderate,Moderate,Possible respiratory irritation
+2026-08-08 00:00:00+00:00,Chennai,76.1,22.5,75.7,75.9,Moderate,Moderate,Possible respiratory irritation
+2026-08-09 00:00:00+00:00,Chennai,57.0,19.6,54.9,66.9,Moderate,Moderate,Possible respiratory irritation
+2026-08-10 00:00:00+00:00,Chennai,52.7,21.4,50.2,70.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-11 00:00:00+00:00,Chennai,50.2,22.3,46.7,72.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-12 00:00:00+00:00,Chennai,51.5,24.1,46.9,76.1,Moderate,Moderate,Possible respiratory irritation
+2026-08-13 00:00:00+00:00,Chennai,53.3,23.2,49.7,74.2,Moderate,Moderate,Possible respiratory irritation
+2026-08-14 00:00:00+00:00,Chennai,58.8,24.9,56.1,77.5,Moderate,Moderate,Possible respiratory irritation
+2026-08-15 00:00:00+00:00,Chennai,47.5,19.8,43.2,66.7,Moderate,Moderate,Possible respiratory irritation
+2026-08-16 00:00:00+00:00,Chennai,63.0,19.5,61.3,66.7,Moderate,Moderate,Possible respiratory irritation
+2026-08-17 00:00:00+00:00,Chennai,71.8,20.7,70.6,70.5,Moderate,Moderate,Possible respiratory irritation
+2026-08-18 00:00:00+00:00,Chennai,74.2,20.7,73.0,71.4,Moderate,Moderate,Possible respiratory irritation
+2026-08-19 00:00:00+00:00,Chennai,73.9,26.2,71.8,81.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-20 00:00:00+00:00,Chennai,60.4,22.9,57.7,73.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-21 00:00:00+00:00,Chennai,58.6,22.2,56.0,72.4,Moderate,Moderate,Possible respiratory irritation
+2026-08-22 00:00:00+00:00,Chennai,53.9,24.9,51.0,77.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-23 00:00:00+00:00,Chennai,66.4,25.7,63.7,79.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-24 00:00:00+00:00,Chennai,64.5,25.6,60.6,79.4,Moderate,Moderate,Possible respiratory irritation
+2026-08-25 00:00:00+00:00,Chennai,42.8,22.1,34.8,71.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-26 00:00:00+00:00,Chennai,48.8,25.6,39.5,78.8,Moderate,Moderate,Possible respiratory irritation
+2026-08-01 00:00:00+00:00,Coimbatore,23.0,13.3,17.8,51.7,Moderate,Moderate,Possible respiratory irritation
+2026-08-02 00:00:00+00:00,Coimbatore,23.3,13.8,18.0,52.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-03 00:00:00+00:00,Coimbatore,20.7,12.5,16.2,48.7,Good,Low,Low respiratory concern
+2026-08-04 00:00:00+00:00,Coimbatore,25.8,15.5,18.0,57.2,Moderate,Moderate,Possible respiratory irritation
+2026-08-05 00:00:00+00:00,Coimbatore,26.0,15.7,18.3,57.7,Moderate,Moderate,Possible respiratory irritation
+2026-08-06 00:00:00+00:00,Coimbatore,24.3,14.7,17.7,55.2,Moderate,Moderate,Possible respiratory irritation
+2026-08-07 00:00:00+00:00,Coimbatore,22.8,13.8,17.3,52.5,Moderate,Moderate,Possible respiratory irritation
+2026-08-08 00:00:00+00:00,Coimbatore,22.7,13.5,16.7,52.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-09 00:00:00+00:00,Coimbatore,20.5,12.0,16.5,49.0,Good,Low,Low respiratory concern
+2026-08-10 00:00:00+00:00,Coimbatore,24.0,14.5,16.2,54.7,Moderate,Moderate,Possible respiratory irritation
+2026-08-11 00:00:00+00:00,Coimbatore,26.7,16.0,21.2,58.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-12 00:00:00+00:00,Coimbatore,25.3,15.0,19.2,56.2,Moderate,Moderate,Possible respiratory irritation
+2026-08-13 00:00:00+00:00,Coimbatore,19.7,11.2,16.7,45.0,Good,Low,Low respiratory concern
+2026-08-14 00:00:00+00:00,Coimbatore,20.8,12.0,17.5,48.0,Good,Low,Low respiratory concern
+2026-08-15 00:00:00+00:00,Coimbatore,27.0,16.0,21.0,56.5,Moderate,Moderate,Possible respiratory irritation
+2026-08-16 00:00:00+00:00,Coimbatore,19.2,11.3,15.0,45.8,Good,Low,Low respiratory concern
+2026-08-17 00:00:00+00:00,Coimbatore,18.5,11.0,14.7,44.3,Good,Low,Low respiratory concern
+2026-08-18 00:00:00+00:00,Coimbatore,23.2,13.2,20.3,52.0,Moderate,Moderate,Possible respiratory irritation
+2026-08-19 00:00:00+00:00,Coimbatore,25.0,15.0,18.2,56.2,Moderate,Moderate,Possible respiratory irritation
+2026-08-20 00:00:00+00:00,Coimbatore,27.0,16.0,19.0,58.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-21 00:00:00+00:00,Coimbatore,25.0,15.0,17.7,56.0,Moderate,Moderate,Possible respiratory irritation
+2026-08-22 00:00:00+00:00,Coimbatore,20.5,12.0,15.0,48.3,Good,Low,Low respiratory concern
+2026-08-23 00:00:00+00:00,Coimbatore,18.7,11.2,13.8,46.2,Good,Low,Low respiratory concern
+2026-08-24 00:00:00+00:00,Coimbatore,20.0,11.8,15.0,46.3,Good,Low,Low respiratory concern
+2026-08-25 00:00:00+00:00,Coimbatore,22.5,12.8,18.0,48.3,Good,Low,Low respiratory concern
+2026-08-26 00:00:00+00:00,Coimbatore,23.3,13.8,18.3,53.2,Moderate,Moderate,Possible respiratory irritation
+2026-08-27 00:00:00+00:00,Coimbatore,22.7,13.7,17.5,52.7,Moderate,Moderate,Possible respiratory irritation
+2026-08-28 00:00:00+00:00,Coimbatore,22.0,13.0,16.2,51.2,Moderate,Moderate,Possible respiratory irritation
+2026-08-29 00:00:00+00:00,Coimbatore,23.3,14.0,17.5,53.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-30 00:00:00+00:00,Coimbatore,23.2,14.0,18.0,52.7,Moderate,Moderate,Possible respiratory irritation
+2026-08-01 00:00:00+00:00,Delhi,81.7,46.5,64.4,124.1,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-02 00:00:00+00:00,Delhi,78.8,44.1,64.0,118.3,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-03 00:00:00+00:00,Delhi,71.6,40.1,57.3,110.5,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-04 00:00:00+00:00,Delhi,59.7,33.0,49.4,94.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-05 00:00:00+00:00,Delhi,78.9,46.1,57.5,122.7,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-06 00:00:00+00:00,Delhi,66.5,38.0,54.4,106.3,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-07 00:00:00+00:00,Delhi,70.0,40.3,51.3,109.0,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-08 00:00:00+00:00,Delhi,72.3,41.8,51.3,113.1,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-09 00:00:00+00:00,Delhi,96.4,52.8,69.2,131.4,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-10 00:00:00+00:00,Delhi,92.7,52.3,73.0,134.4,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-11 00:00:00+00:00,Delhi,97.5,55.1,71.7,138.5,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-12 00:00:00+00:00,Delhi,108.1,58.5,84.8,142.9,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-13 00:00:00+00:00,Delhi,95.1,48.7,81.3,124.8,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-14 00:00:00+00:00,Delhi,92.7,46.9,78.0,120.6,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-15 00:00:00+00:00,Delhi,100.5,51.8,77.8,128.2,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-16 00:00:00+00:00,Delhi,77.9,34.1,73.3,97.1,Moderate,Moderate,Possible respiratory irritation
+2026-08-17 00:00:00+00:00,Delhi,81.1,31.3,78.4,91.8,Moderate,Moderate,Possible respiratory irritation
+2026-08-18 00:00:00+00:00,Delhi,80.2,31.1,77.3,91.5,Moderate,Moderate,Possible respiratory irritation
+2026-08-19 00:00:00+00:00,Delhi,82.4,36.4,77.3,102.6,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-20 00:00:00+00:00,Delhi,88.5,41.6,82.8,113.0,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-21 00:00:00+00:00,Delhi,88.3,36.6,84.4,102.1,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-22 00:00:00+00:00,Delhi,70.1,33.6,62.2,96.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-23 00:00:00+00:00,Delhi,81.7,42.5,69.6,115.3,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-24 00:00:00+00:00,Delhi,102.3,53.2,78.6,132.3,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-25 00:00:00+00:00,Delhi,111.6,56.2,77.0,132.9,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-26 00:00:00+00:00,Delhi,117.9,61.9,90.9,145.0,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-27 00:00:00+00:00,Delhi,113.8,54.1,104.2,134.7,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-28 00:00:00+00:00,Delhi,102.3,38.4,104.5,107.4,Unhealthy for Sensitive Groups,High,Increased respiratory risk for sensitive people
+2026-08-29 00:00:00+00:00,Delhi,92.0,30.9,94.1,93.1,Moderate,Moderate,Possible respiratory irritation
+2026-08-30 00:00:00+00:00,Delhi,93.6,29.8,96.4,92.2,Moderate,Moderate,Possible respiratory irritation
+2026-08-01 00:00:00+00:00,Hyderabad,39.5,18.3,36.9,62.9,Moderate,Moderate,Possible respiratory irritation
+2026-08-02 00:00:00+00:00,Hyderabad,40.8,18.0,38.0,62.5,Moderate,Moderate,Possible respiratory irritation
+2026-08-03 00:00:00+00:00,Hyderabad,41.2,18.2,38.0,62.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-04 00:00:00+00:00,Hyderabad,43.9,20.6,40.4,68.0,Moderate,Moderate,Possible respiratory irritation
+2026-08-05 00:00:00+00:00,Hyderabad,39.0,20.1,35.8,66.8,Moderate,Moderate,Possible respiratory irritation
+2026-08-06 00:00:00+00:00,Hyderabad,36.4,17.7,33.9,61.7,Moderate,Moderate,Possible respiratory irritation
+2026-08-07 00:00:00+00:00,Hyderabad,39.3,20.2,34.9,67.2,Moderate,Moderate,Possible respiratory irritation
+2026-08-08 00:00:00+00:00,Hyderabad,40.2,21.4,35.8,69.7,Moderate,Moderate,Possible respiratory irritation
+2026-08-09 00:00:00+00:00,Hyderabad,39.4,19.4,36.7,65.5,Moderate,Moderate,Possible respiratory irritation
+2026-08-10 00:00:00+00:00,Hyderabad,36.8,17.6,34.6,61.8,Moderate,Moderate,Possible respiratory irritation
+2026-08-11 00:00:00+00:00,Hyderabad,35.0,15.7,33.0,57.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-12 00:00:00+00:00,Hyderabad,33.2,14.4,30.6,53.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-13 00:00:00+00:00,Hyderabad,35.6,18.8,31.7,64.0,Moderate,Moderate,Possible respiratory irritation
+2026-08-14 00:00:00+00:00,Hyderabad,35.6,17.0,33.4,60.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-15 00:00:00+00:00,Hyderabad,32.1,16.5,27.7,59.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-16 00:00:00+00:00,Hyderabad,38.3,17.5,36.7,61.4,Moderate,Moderate,Possible respiratory irritation
+2026-08-17 00:00:00+00:00,Hyderabad,37.1,15.0,36.1,56.0,Moderate,Moderate,Possible respiratory irritation
+2026-08-18 00:00:00+00:00,Hyderabad,37.0,17.4,35.0,60.9,Moderate,Moderate,Possible respiratory irritation
+2026-08-19 00:00:00+00:00,Hyderabad,37.4,18.8,34.4,63.8,Moderate,Moderate,Possible respiratory irritation
+2026-08-20 00:00:00+00:00,Hyderabad,40.0,21.9,36.8,71.2,Moderate,Moderate,Possible respiratory irritation
+2026-08-21 00:00:00+00:00,Hyderabad,45.4,24.7,40.6,77.1,Moderate,Moderate,Possible respiratory irritation
+2026-08-22 00:00:00+00:00,Hyderabad,41.5,19.3,39.7,64.9,Moderate,Moderate,Possible respiratory irritation
+2026-08-23 00:00:00+00:00,Hyderabad,39.8,20.5,36.6,67.9,Moderate,Moderate,Possible respiratory irritation
+2026-08-24 00:00:00+00:00,Hyderabad,41.7,22.1,34.6,70.8,Moderate,Moderate,Possible respiratory irritation
+2026-08-25 00:00:00+00:00,Hyderabad,34.3,19.9,27.5,66.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-26 00:00:00+00:00,Hyderabad,36.9,21.8,28.7,71.0,Moderate,Moderate,Possible respiratory irritation
+2026-08-27 00:00:00+00:00,Hyderabad,35.7,20.1,30.8,66.8,Moderate,Moderate,Possible respiratory irritation
+2026-08-28 00:00:00+00:00,Hyderabad,38.7,18.0,37.0,62.5,Moderate,Moderate,Possible respiratory irritation
+2026-08-29 00:00:00+00:00,Hyderabad,33.5,14.8,32.0,54.9,Moderate,Moderate,Possible respiratory irritation
+2026-08-30 00:00:00+00:00,Hyderabad,34.4,18.2,29.0,62.0,Moderate,Moderate,Possible respiratory irritation
+2026-08-01 00:00:00+00:00,Mumbai,37.2,20.1,32.2,67.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-02 00:00:00+00:00,Mumbai,35.1,18.5,30.2,63.8,Moderate,Moderate,Possible respiratory irritation
+2026-08-03 00:00:00+00:00,Mumbai,36.6,20.2,30.9,66.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-04 00:00:00+00:00,Mumbai,34.7,19.5,27.9,64.0,Moderate,Moderate,Possible respiratory irritation
+2026-08-05 00:00:00+00:00,Mumbai,33.8,19.1,25.9,63.8,Moderate,Moderate,Possible respiratory irritation
+2026-08-06 00:00:00+00:00,Mumbai,30.1,16.9,24.3,59.7,Moderate,Moderate,Possible respiratory irritation
+2026-08-07 00:00:00+00:00,Mumbai,29.1,16.5,23.7,57.4,Moderate,Moderate,Possible respiratory irritation
+2026-08-08 00:00:00+00:00,Mumbai,32.7,17.7,27.4,59.8,Moderate,Moderate,Possible respiratory irritation
+2026-08-09 00:00:00+00:00,Mumbai,33.3,17.6,28.2,60.0,Moderate,Moderate,Possible respiratory irritation
+2026-08-10 00:00:00+00:00,Mumbai,32.1,17.7,26.6,60.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-11 00:00:00+00:00,Mumbai,37.6,21.4,29.2,68.2,Moderate,Moderate,Possible respiratory irritation
+2026-08-12 00:00:00+00:00,Mumbai,37.0,21.7,29.8,68.2,Moderate,Moderate,Possible respiratory irritation
+2026-08-13 00:00:00+00:00,Mumbai,34.8,19.9,28.5,64.4,Moderate,Moderate,Possible respiratory irritation
+2026-08-14 00:00:00+00:00,Mumbai,30.9,16.8,26.1,57.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-15 00:00:00+00:00,Mumbai,38.4,20.8,31.0,66.8,Moderate,Moderate,Possible respiratory irritation
+2026-08-16 00:00:00+00:00,Mumbai,34.0,18.4,28.1,60.1,Moderate,Moderate,Possible respiratory irritation
+2026-08-17 00:00:00+00:00,Mumbai,32.7,17.1,26.9,58.4,Moderate,Moderate,Possible respiratory irritation
+2026-08-18 00:00:00+00:00,Mumbai,31.3,16.3,26.0,55.9,Moderate,Moderate,Possible respiratory irritation
+2026-08-19 00:00:00+00:00,Mumbai,31.4,16.5,26.1,56.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-20 00:00:00+00:00,Mumbai,29.0,15.9,23.5,55.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-21 00:00:00+00:00,Mumbai,26.5,14.5,21.0,53.3,Moderate,Moderate,Possible respiratory irritation
+2026-08-22 00:00:00+00:00,Mumbai,27.2,15.3,22.3,54.8,Moderate,Moderate,Possible respiratory irritation
+2026-08-23 00:00:00+00:00,Mumbai,28.5,16.0,23.1,57.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-24 00:00:00+00:00,Mumbai,31.9,18.5,25.4,62.6,Moderate,Moderate,Possible respiratory irritation
+2026-08-25 00:00:00+00:00,Mumbai,32.7,19.2,25.6,64.5,Moderate,Moderate,Possible respiratory irritation
+2026-08-26 00:00:00+00:00,Mumbai,30.2,17.8,23.7,61.4,Moderate,Moderate,Possible respiratory irritation
+2026-08-27 00:00:00+00:00,Mumbai,26.5,14.9,21.3,54.1,Moderate,Moderate,Possible respiratory irritation
+2026-08-28 00:00:00+00:00,Mumbai,24.2,12.9,20.0,47.5,Good,Low,Low respiratory concern
+2026-08-29 00:00:00+00:00,Mumbai,22.7,12.5,18.7,46.8,Good,Low,Low respiratory concern
+2026-08-30 00:00:00+00:00,Mumbai,21.5,11.5,17.8,43.7,Good,Low,Low respiratory concern
