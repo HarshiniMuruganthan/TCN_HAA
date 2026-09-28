@@ -1,0 +1,6 @@
+Model,MAE,RMSE,R2_Score
+Standard TCN,6.0854,8.0617,0.8833
+Linear Regression,6.4836,9.2929,0.8449
+TCN-HAA (Proposed),6.6216,8.9978,0.8546
+Random Forest,6.9235,9.1923,0.8482
+LSTM,16.0685,25.1554,-0.1367

@@ -3,7 +3,10 @@ import pandas as pd
 import os
 
 from backend.app.utils.health_rules import get_health_info
-from backend.app.services.prediction_service import predict_city_aqi
+from backend.app.services.prediction_service import (
+    predict_city_aqi,
+    predict_city_aqi_detailed,
+)
 
 router = APIRouter(prefix="/api", tags=["AQI"])
 
@@ -63,22 +66,36 @@ def get_city_aqi(city: str):
     }
 @router.get("/prediction/{city}")
 def get_prediction(city: str):
+    details = predict_city_aqi_detailed(city)
 
-    prediction = predict_city_aqi(city)
-
-    if prediction is None:
+    if details is None:
+        # Fallback to simple prediction if needed
+        prediction = predict_city_aqi(city)
+        if prediction is None:
+            return {"error": "Unable to generate prediction for this city"}
+        health_info = get_health_info(prediction)
         return {
-            "error": "Unable to generate prediction for this city"
+            "city": city,
+            "predicted_aqi": prediction,
+            "aqi_category": health_info["category"],
+            "health_risk": health_info["health_risk"],
+            "health_concern": health_info["health_concern"],
         }
 
-    health_info = get_health_info(prediction)
+    predicted_val = details["predicted_aqi"]
+    health_info = get_health_info(predicted_val)
 
     return {
-        "city": city,
-        "predicted_aqi": prediction,
+        "city": details["city"],
+        "current_aqi": details["current_aqi"],
+        "predicted_aqi": predicted_val,
+        "delta": details["delta"],
+        "trend": details["trend"],
+        "model": details["model"],
+        "attention_weights": details["attention_weights"],
         "aqi_category": health_info["category"],
         "health_risk": health_info["health_risk"],
-        "health_concern": health_info["health_concern"]
+        "health_concern": health_info["health_concern"],
     }
 @router.get("/dashboard/{city}")
 def get_dashboard(city: str):
