@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./App.css";
 
@@ -173,6 +174,7 @@ function getFallbackDiseaseData(aqi, pollutants = {}) {
 }
 
 export default function App() {
+  const navigate = useNavigate();
   const [selectedCity, setSelectedCity] = useState("Chennai");
   const [searchQuery, setSearchQuery] = useState("");
 
@@ -306,6 +308,13 @@ export default function App() {
               <span className="live-pulse-dot"></span>
               <span>LIVE STATION FEED</span>
             </div>
+            <button
+              className="aqi-viz-nav-btn"
+              onClick={() => navigate("/visualizations")}
+              title="Open Data Visualization Centre"
+            >
+              📊 Visualizations
+            </button>
             <button
               className={`aqi-refresh-button ${refreshing ? "spinning" : ""}`}
               onClick={() => fetchCityDashboard(selectedCity, true)}

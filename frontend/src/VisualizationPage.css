@@ -1,0 +1,752 @@
+/* ── AeroRisk LIVE — Visualization Page Styles ──────────────────────── */
+
+/* ── PAGE SHELL ── */
+.vis-page {
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(ellipse at 50% 0%, #111827 0%, #090d16 80%);
+  color: #f8fafc;
+  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── HEADER ── */
+.vis-header {
+  width: 100%;
+  background: rgba(15, 23, 42, 0.92);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 12px 28px;
+}
+
+.vis-header-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.vis-logo-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.vis-logo-icon {
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 14px rgba(6,182,212,0.4);
+  flex-shrink: 0;
+}
+
+.vis-brand-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  line-height: 1.1;
+}
+
+.vis-live-tag {
+  font-size: 9px;
+  font-weight: 800;
+  padding: 2px 7px;
+  border-radius: 20px;
+  background: #10b981;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.vis-brand-sub {
+  font-size: 10px;
+  color: #94a3b8;
+  display: block;
+  margin-top: 2px;
+}
+
+/* city selector */
+.vis-city-selector {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.vis-city-label {
+  font-size: 11px;
+  color: #64748b;
+  white-space: nowrap;
+}
+
+.vis-city-chip {
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.04);
+  color: #94a3b8;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.vis-city-chip:hover { border-color: rgba(6,182,212,0.4); color: #06b6d4; }
+.vis-city-chip.active {
+  background: rgba(6,182,212,0.15);
+  border-color: #06b6d4;
+  color: #06b6d4;
+  font-weight: 700;
+}
+
+/* header actions */
+.vis-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.vis-live-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1px solid rgba(16,185,129,0.3);
+  background: rgba(16,185,129,0.08);
+  color: #10b981;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.vis-pulse-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #10b981;
+  animation: visPulse 1.4s infinite;
+}
+@keyframes visPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.4; transform: scale(1.5); }
+}
+
+.vis-refresh-btn, .vis-back-btn {
+  padding: 7px 15px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.06);
+  color: #94a3b8;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.vis-refresh-btn:hover { color: #06b6d4; border-color: #06b6d4; }
+.vis-back-btn { color: #a855f7; border-color: rgba(168,85,247,0.3); }
+.vis-back-btn:hover { background: rgba(168,85,247,0.1); border-color: #a855f7; }
+.vis-refresh-btn.spinning { animation: spinBtn 0.8s linear infinite; }
+@keyframes spinBtn { to { transform: rotate(360deg); } }
+
+/* ── HERO KPI STRIP ── */
+.vis-hero-strip {
+  border-bottom: 1px solid;
+  border-top: 1px solid transparent;
+  padding: 20px 28px;
+  transition: border-color 0.4s;
+}
+
+.vis-hero-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.vis-hero-city {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.vis-flag { font-size: 28px; }
+
+.vis-hero-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.vis-hero-sub {
+  font-size: 12px;
+  color: #64748b;
+  margin: 4px 0 0;
+}
+
+.vis-hero-kpis {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.vis-kpi-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 18px;
+  border-radius: 12px;
+  border: 1px solid;
+  background: rgba(255,255,255,0.03);
+  min-width: 100px;
+  transition: transform 0.2s;
+}
+.vis-kpi-card:hover { transform: translateY(-2px); }
+
+.vis-kpi-val {
+  font-family: 'Outfit', sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.vis-kpi-lbl {
+  font-size: 10px;
+  color: #64748b;
+  margin: 3px 0;
+}
+
+.vis-kpi-tag {
+  font-size: 9px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  color: #fff;
+  letter-spacing: 0.3px;
+}
+
+/* ── LOADING / ERROR ── */
+.vis-loading, .vis-error {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.vis-spinner {
+  width: 44px;
+  height: 44px;
+  border: 3px solid rgba(6,182,212,0.2);
+  border-top-color: #06b6d4;
+  border-radius: 50%;
+  animation: visSpinAnim 0.8s linear infinite;
+}
+@keyframes visSpinAnim { to { transform: rotate(360deg); } }
+
+.vis-error-icon { font-size: 48px; }
+.vis-retry-btn {
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: 1px solid #06b6d4;
+  background: rgba(6,182,212,0.1);
+  color: #06b6d4;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* ── MAIN WRAPPER ── */
+.vis-main {
+  flex: 1;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ── TAB NAV ── */
+.vis-tab-nav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.vis-tab-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+  color: #94a3b8;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+  gap: 2px;
+}
+.vis-tab-btn:hover {
+  border-color: rgba(6,182,212,0.3);
+  color: #06b6d4;
+  background: rgba(6,182,212,0.06);
+}
+.vis-tab-btn.active {
+  border-color: #06b6d4;
+  background: rgba(6,182,212,0.12);
+  color: #06b6d4;
+  font-weight: 700;
+  box-shadow: 0 0 16px rgba(6,182,212,0.2);
+}
+.vis-tab-desc {
+  font-size: 10px;
+  color: #475569;
+}
+.vis-tab-btn.active .vis-tab-desc { color: rgba(6,182,212,0.6); }
+
+/* ── CHART CARD ── */
+.vis-chart-card {
+  background: rgba(17,24,39,0.85);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 16px;
+  padding: 24px;
+  backdrop-filter: blur(12px);
+  animation: cardFadeIn 0.3s ease;
+}
+@keyframes cardFadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.vis-chart-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.vis-chart-header h2 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+
+.vis-chart-header p {
+  font-size: 13px;
+  color: #64748b;
+  margin: 0;
+}
+
+.vis-chart-legend {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+  color: #94a3b8;
+  flex-shrink: 0;
+}
+
+.legend-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+/* ── TIMELINE CHIP ROW ── */
+.vis-timeline-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.vis-tl-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid;
+  background: rgba(255,255,255,0.03);
+  min-width: 70px;
+  position: relative;
+  transition: transform 0.2s;
+}
+.vis-tl-chip:hover { transform: translateY(-2px); }
+.vis-tl-chip.is-live { background: rgba(6,182,212,0.08); }
+.vis-tl-chip.is-tcn  { background: rgba(168,85,247,0.08); }
+
+.tl-chip-aqi {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+.tl-chip-cat  { font-size: 10px; text-align: center; }
+.tl-chip-label { font-size: 10px; color: #64748b; text-align: center; }
+
+.tl-live-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: #06b6d4;
+  animation: visPulse 1.4s infinite;
+  position: absolute;
+  top: 6px; right: 6px;
+}
+
+.tl-tcn-badge {
+  font-size: 8px;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 6px;
+  background: rgba(168,85,247,0.3);
+  color: #a855f7;
+  position: absolute;
+  top: 5px; right: 5px;
+}
+
+/* ── RADAR LAYOUT ── */
+.vis-radar-layout {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.vis-pollutant-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  flex: 1;
+  min-width: 260px;
+}
+
+.vis-poll-stat-card {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid;
+  background: rgba(255,255,255,0.03);
+}
+
+.poll-stat-name  { font-weight: 700; font-size: 13px; margin-bottom: 4px; }
+.poll-stat-raw   { font-size: 18px; font-weight: 800; color: #f8fafc; }
+.poll-stat-raw span { font-size: 11px; color: #64748b; }
+.poll-stat-bar-track { height: 4px; background: rgba(255,255,255,0.08); border-radius: 4px; margin: 6px 0; }
+.poll-stat-bar-fill  { height: 100%; border-radius: 4px; transition: width 0.6s ease; }
+.poll-stat-pct       { font-size: 12px; font-weight: 700; }
+
+/* ── CITY RANK CARDS ── */
+.vis-city-rank-grid {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.vis-city-rank-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 1px solid;
+  background: rgba(255,255,255,0.03);
+  cursor: pointer;
+  transition: all 0.2s;
+  min-width: 90px;
+}
+.vis-city-rank-card:hover { background: rgba(255,255,255,0.06); transform: translateY(-2px); }
+.vis-city-rank-card.active { background: rgba(6,182,212,0.08); }
+
+.rank-num  { font-size: 18px; font-weight: 900; font-family: 'Outfit', sans-serif; }
+.rank-city { font-size: 12px; font-weight: 600; color: #f8fafc; text-align: center; }
+.rank-aqi  { font-size: 20px; font-weight: 900; font-family: 'Outfit', sans-serif; }
+.rank-label {
+  font-size: 9px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+/* ── DISEASE LAYOUT ── */
+.vis-disease-layout {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.vis-disease-gauges {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.vis-gauge-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.07);
+  transition: transform 0.2s;
+}
+.vis-gauge-card:hover { transform: translateY(-3px); }
+
+.vis-gauge-name { font-size: 13px; font-weight: 700; color: #f8fafc; }
+.vis-gauge-bar-track { width: 100%; height: 4px; background: rgba(255,255,255,0.07); border-radius: 4px; }
+.vis-gauge-bar-fill  { height: 100%; border-radius: 4px; transition: width 0.7s ease; }
+
+.vis-disease-bars {
+  flex: 1;
+  min-width: 280px;
+}
+
+.vis-disease-bars h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 16px;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.vis-dis-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.vis-dis-bar-name { font-size: 13px; font-weight: 600; min-width: 80px; color: #f8fafc; }
+
+.vis-dis-bar-track {
+  flex: 1;
+  height: 20px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 10px;
+  position: relative;
+  overflow: visible;
+}
+
+.vis-dis-bar-fill {
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.7s ease;
+}
+
+.vis-dis-bar-val {
+  position: absolute;
+  right: -36px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.vis-disease-legend {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.dis-leg-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: #94a3b8;
+}
+
+.dis-leg-item span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+}
+
+/* ── POLLUTANT BREAKDOWN ── */
+.vis-breakdown-layout {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.vis-breakdown-pie, .vis-breakdown-bar {
+  flex: 1;
+  min-width: 280px;
+}
+
+/* Breakdown Table */
+.vis-breakdown-table {
+  overflow-x: auto;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.07);
+}
+
+.vis-breakdown-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.vis-breakdown-table th {
+  padding: 10px 14px;
+  text-align: left;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #64748b;
+  background: rgba(255,255,255,0.03);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.vis-breakdown-table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  color: #94a3b8;
+  vertical-align: middle;
+}
+
+.vis-breakdown-table tr:last-child td { border-bottom: none; }
+
+.vis-breakdown-table tr:hover td { background: rgba(255,255,255,0.03); }
+
+.poll-name-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.table-pct-bar {
+  height: 4px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 4px;
+  margin-bottom: 4px;
+  overflow: hidden;
+}
+.table-pct-bar div { height: 100%; border-radius: 4px; transition: width 0.5s; }
+
+.poll-status-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+/* ── TCN CARD ── */
+.vis-tcn-card {
+  background: rgba(14, 10, 25, 0.85);
+  border-color: rgba(168,85,247,0.2);
+}
+
+.vis-tcn-layout {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.vis-tcn-bars {
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.vis-tcn-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.vis-tcn-feat {
+  font-size: 12px;
+  font-weight: 600;
+  min-width: 70px;
+  color: #f8fafc;
+}
+
+.vis-tcn-track {
+  flex: 1;
+  height: 16px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.vis-tcn-fill {
+  height: 100%;
+  border-radius: 8px;
+  transition: width 0.6s ease;
+}
+
+.vis-tcn-pct {
+  font-weight: 700;
+  font-size: 13px;
+  min-width: 38px;
+  text-align: right;
+}
+
+/* ── FOOTER ── */
+.vis-footer {
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding: 16px 28px;
+  margin-top: auto;
+}
+
+.vis-footer-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 11px;
+  color: #475569;
+  flex-wrap: wrap;
+}
